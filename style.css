@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+nav img{
+    width: 24px;
+}
+.Football img{
+        width: 800px;
+        border-radius: 10px;
+        margin-left:40px;
+}
+.krug img{
+    width: 150px;
+}
+main{
+    display: inline-block;
+}
+
+.about {
+   position: absolute;
+  top: 400px;
+  right: 100px;
+  border: 2px solid #1C9B35;        
+    padding: 10px;
+    border-radius: 10px;          
+    background-color: white;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left:40px;
+}
+  
+  
+  .about h2 {
+    color: #1ba64e;                
+    font-size: 32px;
+    margin-top: 0;
+  }
+  
+  .about p {
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .about button {
+    background-color: #41E054;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about button:hover {
+    background-color: #168d3f;
+  }
+  .shapka {
+    background-color: #5CD16A;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .menu a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .menu a.another {
+    font-size: 34px;
+    font-weight: bold;
+  }
+
+.email-box {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #2ecc40; /* ярко-зелёный */
+  
+  border-radius: 5px;
+  width: fit-content;
+  font-family: Arial, sans-serif;
+  padding: 20px 30px;
+  margin-left: 50px;
+}
+
+.email-icon {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.email-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
+
+body{
+  font-family:Ubuntu ;
+}
+#krug {
+  position: absolute;
+  top: 110px; 
+  left: 950px; 
+  width: 220px;
+}
+#zeli{
+   margin-left:50px;
+   width: 135px;
+   padding: 10px;
+}
